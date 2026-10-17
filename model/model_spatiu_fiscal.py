@@ -455,7 +455,7 @@ def grafic_simplu(cale=os.path.join(FIG, "fig13_spatiu_fiscal_simplu.png"), pana
         for y, c, ls, et in (
                 (plan, GRI, (0, (5, 3)), "Planul guvernului"),
                 (bolojan, ALBASTRU, "-", "Doar măsurile Bolojan, nimic nou"),
-                (pachet, PORTOCALIU, "-", "Planul + 22 mld. lei/an pentru primari și firme")):
+                (pachet, PORTOCALIU, "-", "Planul + 22 mld. lei/an cheltuieli noi")):
             ax.plot(ani, y, color=c, lw=3, ls=ls, marker="o", ms=8, zorder=3, label=et,
                     markeredgecolor=FUNDAL, markeredgewidth=2)
         x_et = pana_la + 0.25
